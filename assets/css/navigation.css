@@ -1,0 +1,6 @@
+/* Compact, readable navigation across default, custom themes and Studio. */
+.nav .main-nav a{font-size:12px!important;font-weight:600;letter-spacing:.01em;padding:8px 9px;line-height:1.5}
+.nav .nav-actions{font-size:12px}.nav .nav-actions .btn{font-size:12px}
+.nav .mobile-nav-links a{font-size:13px!important;line-height:1.5;padding-top:10px;padding-bottom:10px}
+.nav .mobile-nav-account,.nav .mobile-nav-account .btn{font-size:13px}
+@media(min-width:1101px){.nav .main-nav{gap:2px}}

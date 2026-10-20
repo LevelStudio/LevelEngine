@@ -1,0 +1,6 @@
+<?php $title=le_text('Galeria');require __DIR__.'/header.php'; ?>
+<main class="page container"><div class="section-head"><div><h1><?=e(le_text('Galeria społeczności'))?></h1><p class="muted"><?=e(le_text('Najciekawsze ujęcia.'))?></p></div></div>
+<?php if($gallery): ?><div class="gallery"><?php foreach($gallery as $g): ?><article class="card"><a href="<?=e(le_url((string)$g['image']))?>" data-gallery-item><img src="<?=e(le_url((string)$g['image']))?>" alt="<?=e($g['title'])?>" loading="lazy"></a><div class="gallery-caption"><strong><?=e($g['title'])?></strong><div class="muted"><?=e($g['author'])?> · <?=e($g['game'])?></div></div></article><?php endforeach; ?></div>
+<?php else: ?><p class="muted"><?=e(le_text('Galeria jest jeszcze pusta.'))?></p><?php endif; ?>
+<?php if($galleryPages>1): ?><nav aria-label="<?=e(le_text('Strony galerii'))?>" class="gallery-pagination"><?php if($galleryPage>1): ?><a class="btn" href="/galeria/?page=<?=$galleryPage-1?>"><?=e(le_text('Poprzednia strona'))?></a><?php endif; ?><span><?=$galleryPage?> / <?=$galleryPages?></span><?php if($galleryPage<$galleryPages): ?><a class="btn" href="/galeria/?page=<?=$galleryPage+1?>"><?=e(le_text('Następna strona'))?></a><?php endif; ?></nav><?php endif; ?>
+</main><?php require __DIR__.'/footer.php'; ?>

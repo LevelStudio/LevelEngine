@@ -1,0 +1,3 @@
+<?php $title='Weryfikacja 2FA';require __DIR__.'/header.php';?>
+<main class="page auth-page"><section class="panel auth-card"><h1><?=e(le_text('Weryfikacja dwuetapowa'))?></h1><p class="muted"><?=e(le_text('Wpisz 6-cyfrowy kod z aplikacji lub jeden z zapisanych kodów zapasowych.'))?></p><?php if($error):?><div class="alert error"><?=e($error)?></div><?php endif;?><form method="post" class="form-grid"><?=csrf_field()?><label>Kod 2FA<input class="input" name="code" inputmode="text" autocomplete="one-time-code" maxlength="12" required autofocus></label><button class="btn primary"><?=e(le_text('Potwierdź'))?></button></form></section></main>
+<?php require __DIR__.'/footer.php';?>

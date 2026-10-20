@@ -1,0 +1,16 @@
+{
+  "engine": "LevelEngineCMS",
+  "version": "1.0.0",
+  "public_version": "1.0.0",
+  "name": "LevelEngine CMS 1.0.0 FINAL",
+  "publisher": "LevelStudio",
+  "author": "LevelStudio",
+  "release": "stable",
+  "release_build": 2026101601,
+  "min_php": "8.1.0",
+  "notes": "Wydanie FINAL: nowy panel, rozbudowane Studio, repozytorium i naprawy mechanizmów. Numer wersji pozostaje 1.0.0.",
+  "package_type": "upgrade",
+  "package_mode": "maintenance",
+  "min_version": "1.0.0",
+  "max_version": "1.0.0"
+}

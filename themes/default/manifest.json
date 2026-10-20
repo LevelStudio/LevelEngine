@@ -1,0 +1,8 @@
+{
+  "id": "default",
+  "name": "LevelEngine Default",
+  "version": "1.0.0",
+  "author": "LevelStudio",
+  "description": "Domyślny nowoczesny motyw LevelEngineCMS.",
+  "css": "style.css"
+}

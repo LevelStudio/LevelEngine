@@ -1,0 +1,32 @@
+[
+  {
+    "id": "orange-pulse",
+    "type": "theme",
+    "name": "Orange Pulse",
+    "version": "1.0.0",
+    "author": "LevelStudio",
+    "description": "Oficjalny pomarańczowy motyw demonstracyjny repozytorium LevelEngine.",
+    "status": "official",
+    "min_cms": "1.2.1",
+    "download_url": "https://cms.levelgame.pl/repository/packages/themes/orange-pulse-1.0.0.zip",
+    "sha256": "948592a971d98eb3d2469322daaa39d9080e32af89cf963cbed4fa057cbd664a"
+  },
+  {
+    "id": "minecraft-connector",
+    "type": "plugin",
+    "name": "Minecraft Connector",
+    "version": "1.0.0",
+    "author": "LevelStudio",
+    "description": "Most pomiędzy PaperMC i LevelEngine CMS.",
+    "status": "planned"
+  },
+  {
+    "id": "discord-integration",
+    "type": "plugin",
+    "name": "Discord Integration",
+    "version": "1.0.0",
+    "author": "LevelStudio",
+    "description": "Webhooki i automatyczne powiadomienia Discord.",
+    "status": "planned"
+  }
+]
